@@ -200,6 +200,12 @@ img {
   -ms-writing-mode: tb-rl;
   text-orientation: upright;
   -webkit-text-orientation: upright;
+  /* 追加 */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  /* 追加ここまで */
 }
 
 .footer-logo  {
