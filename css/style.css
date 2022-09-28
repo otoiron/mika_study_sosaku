@@ -194,20 +194,11 @@ img {
   color: #fff;
 }
 .footer-info {
-  writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-  -moz-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  text-orientation: upright;
-  -webkit-text-orientation: upright;
-  /* 追加 */
   display: flex;
   width: 100%;
   justify-content: space-between;
-  flex-direction: column;
-  /* 追加ここまで */
+  flex-direction: row-reverse;
 }
-
 .footer-logo  {
   margin-left: 60px;
 }
@@ -229,4 +220,22 @@ img {
   margin-top: 120px;
   text-align: center;
   font-size: 1rem;
+}
+
+.footer-about,
+.footer-list__list {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.footer-list__date,
+.footer-list__item,
+.footer-onlinestore__btn {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
 }
