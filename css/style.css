@@ -1,0 +1,226 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #141414;
+  font-size: 1.6rem;
+  font-family: "Noto Serif JP", serif;
+  background-color: #E6E2D7;
+}
+img {
+  width: 100%;
+}
+/* レイアウト */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* 見出し */
+.title-aria {
+  margin-right: 0;
+}
+.sec-title {
+  font-size: 3.6rem;
+  line-height: 1;
+}
+.sec-subtitle {
+  font-size: 1.6rem;
+  margin-left: 5px;
+}
+/* ヘッダー */
+.header {
+  background-image: url(../img/mainvisual-pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 60px 80px;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  margin-bottom: 180px;
+  position: relative;
+}
+.header-logo img {
+  max-width: 40px;
+}
+.gnav-list {
+  margin-right: 60px;
+}
+.gnav-list__item {
+  margin-right: 25px;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.header-onlinestore__btn {
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  width: 70px;
+}
+.header-onlinestore__btn a {
+  display: block;
+  border: 1px solid #CCCCCC;
+  padding: 30px 18px;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #FFF;
+}
+/* ニュース */
+.news >.container{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: auto;
+  margin-bottom: 180px;
+}
+.news-list  {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+.news-date dl {
+  margin-right: 100px; 
+  margin-top: 80px;
+  font-size: 1.6rem;
+  height: 290px;
+}
+.news-date dt {
+  border-right: 1px solid  #000000;
+  padding: 15px 30px 30px 5px;
+}
+.news-date dd {
+  margin-top: 0;
+  padding: 15px 0  0 30px;
+}
+.news-date dd:last-child {
+  border-left: 1px solid  #000000;
+  padding-left: 30px;
+}
+/* クリエイト */
+.create >.container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 180px;
+}
+.create .title-aria {
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+.create .sec-subtitle {
+  margin-top: 25px;
+}
+.create-inner {
+  position: relative;
+}
+.create-img {
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.create-img img {
+  max-width: 640px;
+}
+.poroducts-text {
+  position: absolute;
+  background-color: rgba(249, 233, 6, 0.6);
+  padding: 50px 0;
+  width: 358px;
+  text-align: center;
+  bottom: -20px;
+  left: -20px;
+}
+.poroducts-text  p {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  
+}
+/* サイエンス */
+.science >.container {
+  display: flex;
+  margin-bottom: 160px;
+}
+.science .title-aria {
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr; 
+  margin-right: 20px;
+}
+.science .sec-subtitle {
+  margin-top:  25px;
+}
+.science-inner {
+  position: relative;
+}
+.science-img  {
+  margin-top: 100px;
+}
+.science-img img {
+  max-width: 640px;
+}
+.science-text {
+  position: absolute;
+  background-color: rgba(149, 42, 38, 0.6);
+  padding: 50px 0;
+  width: 358px;
+  text-align:center;
+  bottom: -20px;
+  right: -20px;
+}
+.science-text p {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+/* マップ */
+.access-map iframe {
+  width: 100%;
+}
+/* フッター */
+.footer  {
+  background-color: #000000;
+  padding: 80px 80px 30px 30px;
+  width: 100%;
+  color: #fff;
+}
+.footer-info {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+}
+
+.footer-logo  {
+  margin-left: 60px;
+}
+.footer-logo img {
+  max-width: 40px;
+}
+.footer-list__item {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-left: 25px;
+}
+.footer-list__date {
+  margin-left: 60px;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.copy-right {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 1rem;
+}
